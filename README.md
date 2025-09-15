@@ -31,3 +31,4 @@
    ```
 
 7. After starting the server, open [http://localhost:3033/api-docs/#/](http://localhost:3033/api-docs/#/) in your browser to view the Swagger API documentation and verify that the APIs are responding correctly. You can also use Postman to test the endpoints manually.
+8. Document and explain all the APIs implemented in this project, including their endpoints and descriptions.
