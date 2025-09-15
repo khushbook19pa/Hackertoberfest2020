@@ -2,7 +2,9 @@
 
 1. This project is a clone of the [Ecotron Dashboard V3 repository](https://bitbucket.org/ecofrostdevs/ecotron_dashboard_v3/src/main/) from Bitbucket. (APIs have been moved to ClickHouse)
 
-   **`git clone https://bitbucket.org/ecofrostdevs/ecotron_dashboard_v3.git`**
+   ```bash
+   git clone https://bitbucket.org/ecofrostdevs/ecotron_dashboard_v3.git
+   ```
 
 2. This project is built using:
    - [Node.js](https://nodejs.org/) – JavaScript runtime
@@ -11,13 +13,21 @@
    - [ClickHouse](https://clickhouse.com/) – OLAP database for analytics & reporting
    - [MySQL](https://www.mysql.com/) – Relational database for metadata and configs
 
-3. **`cd ecotron_dashboard_v3`**
+3. ```bash
+   cd ecotron_dashboard_v3
+   ```
 
-4. Make sure you have Node.js (v18+) installed. Then run: **`npm install`**
+4. Make sure you have Node.js (v18+) installed. Then run:
+   ```bash
+   npm install
+   ```
 
 5. Create Environment File
    Create a `.env` file in the root folder and add your configurations.
 
-6. Start the Development Server - **`npm run dev`**
+6. Start the Development Server:
+   ```bash
+   npm run dev
+   ```
 
 7. After starting the server, open [http://localhost:3033/api-docs/#/](http://localhost:3033/api-docs/#/) in your browser to view the Swagger API documentation and verify that the APIs are responding correctly. You can also use Postman to test the endpoints manually.
